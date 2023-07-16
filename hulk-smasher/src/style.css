@@ -1,0 +1,41 @@
+body {
+  background-color: grey
+}
+
+h1 {
+  color: green;
+  text-align: center;
+  font-size: 100px;
+  margin-top: 0;
+}
+
+#imageContainer {
+  display: flex;
+  justify-content: center;
+}
+
+#imageContainer img {
+  height: 200px;
+  padding: 20px;
+}
+
+#buttonContainer {
+  display:flex;
+  justify-content: center;
+}
+
+#resetButton {
+  font-size: 20px;
+  padding: 10px;
+  border:none;
+  border-radius: 10px;
+  background-color: green;
+  color: white;
+  margin-bottom:20px;
+}
+
+/* Set smashed hidden until click */
+.smashed {
+  display: none; 
+} 
+
